@@ -13,6 +13,17 @@ A full-stack web application designed to manage, archive, and display AI Image G
 ![Prompt Detail](/screenshots/detail.png)
 *Detailed view with Redis-powered view counter and copy-to-clipboard functionality.*
 
+## 📸 Screenshots
+
+![Dashboard](/screenshots/dashboard.png)
+*Modern, dark-themed dashboard with glassmorphism effects.*
+
+![Add Prompt](/screenshots/add_prompt.png)
+*Reactive form with real-time complexity visualization.*
+
+![Prompt Detail](/screenshots/detail.png)
+*Detailed view with Redis-powered view counter and copy-to-clipboard functionality.*
+
 ## Architecture & Tech Stack
 
 This project is built using:
