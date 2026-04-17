@@ -12,7 +12,7 @@ export default function PromptDetail() {
   useEffect(() => {
     const fetchPrompt = async () => {
       try {
-        const response = await fetch(`/api/prompts/${id}/`);
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/${id}/`);
         if (!response.ok) {
           if (response.status === 404) throw new Error('Prompt not found');
           throw new Error('Failed to fetch prompt details');

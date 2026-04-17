@@ -12,6 +12,9 @@ def fix_api_calls():
                 # Replace standard fetch call with environment variable aware one
                 new_content = content.replace("fetch('/api/prompts/", "fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/")
                 
+                # Also handle template strings like `/api/prompts/${id}/`
+                new_content = new_content.replace("fetch(`/api/prompts/", "fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/")
+                
                 if new_content != content:
                     with open(filepath, "w", encoding="utf-8") as f:
                         f.write(new_content)
