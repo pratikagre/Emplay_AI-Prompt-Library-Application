@@ -1,31 +1,12 @@
-<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/59df7136-c520-4662-9690-663a2885a9e2" /><img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/f3f3310d-b7a0-451e-b680-a38a728f5a1a" /><img width="1902" height="867" alt="image" src="https://github.com/user-attachments/assets/872f4760-e7a2-489c-8e9d-bcbd13e98d67" /># AI Prompt Library
+# AI Prompt Library
 
 A full-stack web application designed to manage, archive, and display AI Image Generation Prompts.
 
-## 📸 Screenshots
 
-![Dashboard](/screenshots/dashboard.png)
-*Modern, dark-themed dashboard with glassmorphism effects.*
-
-![Add Prompt](/screenshots/add_prompt.png)
-*Reactive form with real-time complexity visualization.*
-
-![Prompt Detail](/screenshots/detail.png)
-*Detailed view with Redis-powered view counter and copy-to-clipboard functionality.*
 
 ## 📸 Screenshots
 
-![Dashboard]([Uploading image.png…]
-)
-*Modern, dark-themed dashboard with glassmorphism effects.*
-
-![Add Prompt]([Uploading image.png…]
-)
-*Reactive form with real-time complexity visualization.*
-
-![Prompt Detail]([Uploading image.png…]
-)
-*Detailed view with Redis-powered view counter and copy-to-clipboard functionality.*
+<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/59df7136-c520-4662-9690-663a2885a9e2" /><img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/f3f3310d-b7a0-451e-b680-a38a728f5a1a" /><img width="1902" height="867" alt="image" src="https://github.com/user-attachments/assets/872f4760-e7a2-489c-8e9d-bcbd13e98d67" />
 
 ## Architecture & Tech Stack
 
