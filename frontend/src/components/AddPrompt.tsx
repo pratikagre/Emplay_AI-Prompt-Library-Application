@@ -27,7 +27,7 @@ export default function AddPrompt() {
     setErrors({});
     
     try {
-      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/', {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title, content, complexity })

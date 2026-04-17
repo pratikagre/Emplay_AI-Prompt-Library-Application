@@ -15,7 +15,7 @@ export default function PromptList() {
 
   const fetchPrompts = async () => {
     try {
-      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/');
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL || ''}/api/prompts/`);
       if (!response.ok) throw new Error('Failed to fetch prompts');
       const data = await response.json();
       setPrompts(data);
